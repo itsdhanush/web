@@ -1,4 +1,3 @@
-
 :root {
     /*   color variables */
     --clr-primary: #ffffff;
@@ -113,8 +112,7 @@ h2
 }
 p
 {
-  font-family:
-      p { display: inline-block; }
+  font-family:;
 }
 
 h3
@@ -125,7 +123,6 @@ h3
     font-family: messinasans,sans-serif;
     font-size: 13px;
     font-weight: 500;
-     display: inline-block; 
    
 margin-top: -8px;
     color:#ffffff;
@@ -138,7 +135,7 @@ margin-top: -8px;
     justify-content: center;
     line: height 1.6em;
     
-    
+      display: inline-block; 
     
 }
 i {
@@ -189,7 +186,6 @@ div {
 }
 
 .footer {
-  color: hsl(0, 0%, 100%);
   font-size: medium;
   position: absolute;
   bottom: 0;
@@ -223,6 +219,178 @@ div {
   font-size: 10px;
   text-align: center;
 }
+p {
+  font-weight: 400;
+}
+
+r
+ 
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  
+h3
+{
+  padding-bottom: 5px;
+    border-bottom: 1px solid;
+    font-family: messinasans,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    .collapsed {
+  overflow: hidden;
+}
+
+    position: relative;
+    z-index: 1;
+    position: relative;
+}
+.nav-list {
+
+  font-size: 25px;
+  padding: 1rem 0;
+  border-radius: var(--radius);
+  align-items: center;
+  font-weight: bold; 
+  justify-content: center;
+
+
+}
+
+.nav-list {
+justify-content: center;
+}
+
+.nav-item {
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ display: block;
+ padding-left: 70%;
+ margin-bottom: 0.75rem;
+ 
+ 
+}
+.h2
+{
+   color: #feb308;
+}
+
+.nav-item:first-child {
+  margin-right: auto;
+  margin-left: 2rem;
+  justify-content: center;
+  
+}
+
+.nav-item a {
+  text-decoration: none;
+  color:#550871;
+  transition: all 200ms ease-in;
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+
+}
+
+.nav-item a:hover {
+  color: #feb308;
+}
+
+.nav-items-row {
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: 2rem;
+
+}
+
+
+.btn-primary {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  background: var(--clr-primary);
+  border: none;
+  outline: none;
+  border-radius: var(--radius);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
+
+.btn-primary:hover {
+  background: var(--clr-primary-hover);
+}
+
+
+  
+ 
+}
+  
+  
+  .btn-primary:hover {
+    background: var(--clr-primary-hover);
+  }
+  
+
+   
+
+
+/* CSS Styles for Blog Section */
+.blog-section {
+  padding: 0px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+  gap: 20px; /* Add spacing between blog items */
+}
+
+.blog-item {
+    font-family: messinasans,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.blog-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.blog-summary {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+
+
 
 #moreText {
   display: none;
