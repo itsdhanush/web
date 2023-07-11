@@ -97,7 +97,7 @@ html body {
   display: flex;
   justify-content: flex-end;
 }
-
+p { display: inline-block; }
 h2
 {
       color: #ffffff;
