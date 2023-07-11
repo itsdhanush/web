@@ -172,7 +172,7 @@ element.style {
     margin: 0;
 }
 user agent stylesheet
-p {
+p { text-align:center;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
