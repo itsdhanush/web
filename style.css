@@ -104,7 +104,7 @@ h2
 {
       color: #ffffff;
       font-size: larger;
-      font-size: 20px;
+      font-size: 30px;
       text-align: right;
       padding-right: 50;
       padding-left: 50;
@@ -215,7 +215,6 @@ div {
   font-size: 10px;
   text-align: center;
 }
-
 
 #moreText {
   display: none;
