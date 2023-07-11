@@ -1,5 +1,4 @@
 
-
 :root {
     /*   color variables */
     --clr-primary: #ffffff;
@@ -33,7 +32,7 @@
   
   .nav-list {
 
-    font-size: 25px;
+    font-size: 30px;
     padding: 1rem 0;
     border-radius: var(--radius);
     display: flex;
@@ -119,7 +118,14 @@ p
 
 h3
 {   
-  margin-top: -8px;
+  
+
+.post-tease__meta-list 
+    font-family: messinasans,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+   
+margin-top: -8px;
     color:#ffffff;
     font-size: larger;
     font-size: 30px;
@@ -128,7 +134,7 @@ h3
     padding-right: 50px;
     display: flex;
     justify-content: center;
-    line-height: 
+    line: height 1.6em;
     
     
     
