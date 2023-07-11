@@ -86,8 +86,11 @@
   }
 html body {
     background-color:#feb538;
-    height:1080px ;
-    width: 1120px ;
+    padding-right:50;
+    padding-left:50:
+    height:1080px 
+    width: 1120px
+    
    
 }
 .d {
