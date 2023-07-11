@@ -80,7 +80,9 @@ html body {
   width: 1519.20 px ;
  
 }
-h1
+h1 {
+  text-align:center;
+}
 
 
 
