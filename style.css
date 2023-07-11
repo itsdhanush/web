@@ -113,7 +113,8 @@ h2
 }
 p
 {
-  font-family:;
+  font-family:
+      p { display: inline-block; }
 }
 
 h3
@@ -124,6 +125,7 @@ h3
     font-family: messinasans,sans-serif;
     font-size: 13px;
     font-weight: 500;
+     display: inline-block; 
    
 margin-top: -8px;
     color:#ffffff;
