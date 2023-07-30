@@ -1,3 +1,8 @@
+
+@media (min-width: 450px) and (max-width: 1119px)
+.page-topper__sub {
+  font-size: calc(18px + (28 - 18) * (100vw - 450px)/(1120 - 450));
+}
 :root {
     /*   color variables */
     --clr-primary: #ffffff;
