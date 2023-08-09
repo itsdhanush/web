@@ -1,4 +1,15 @@
-
+.page-topper--article .page-topper__sub {
+  margin-top: 0;
+}
+@media (min-width: 450px) and (max-width: 1119px)
+.page-topper__sub {
+  font-size: calc(18px + (28 - 18) * (100vw - 450px)/(1120 - 450));
+}
+.page-topper__sub {
+  font-family: messinasans,sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  font-size: 18px
 :root {
     /*   color variables */
     --clr-primary: #ffffff;
