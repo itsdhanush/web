@@ -52,7 +52,7 @@ root {
   }
   
   .nav-item a {
-    color:#FF0000;
+   
     text-decoration: none;
     transition: all 200ms ease-in;
     font-size:larger;
