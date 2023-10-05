@@ -171,7 +171,7 @@ s :hover
     
 
 footer h6 {
-  color: hsl(0, 0%, 100%);
+   color: #ffffff;
   font-size: medium;
   position: relative;
   display: grid;
