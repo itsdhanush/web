@@ -298,7 +298,6 @@ justify-content: center;
 
 .nav-item a {
   text-decoration: none;
-  color:#550871;
   transition: all 200ms ease-in;
   align-items: center;
   display:flex;
