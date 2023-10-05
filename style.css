@@ -53,7 +53,6 @@ root {
   
   .nav-item a {
     text-decoration: none;
-    color:#550871
     transition: all 200ms ease-in;
     font-size:larger;
   }
