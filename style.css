@@ -50,6 +50,7 @@ root {
   .nav-item {
     list-style: none;
     margin-right: 2rem;
+	  color:#550872;
   }
   
   .nav-item a {
