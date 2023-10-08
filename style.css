@@ -68,6 +68,8 @@ root {
     margin-right: auto;
     margin-left: 2rem;
   }
+.nav-item a[href="mailto: itsdhanushhere@gmail.com"] {
+    color: #550872;
   
   .btn-primary {
   
