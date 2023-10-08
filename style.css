@@ -58,7 +58,11 @@
   .nav-item a:hover {
     color: var(--clr-primary-dark);
   }
-  
+  .nav-item a[href="mailto: itsdhanushhere@gmail.com"] {
+    color: green;
+    /* Add any other styles you want for the Contact link */
+}
+
   .nav-item:first-child {
     margin-right: auto;
     margin-left: 2rem;
