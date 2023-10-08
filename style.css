@@ -1,4 +1,4 @@
-root {
+root{
     /*   color variables */
     --clr-primary: #ffffff;
     --clr-primary-hover: #ffffff;
@@ -20,7 +20,7 @@ root {
   body {
     font-family: Montserrat, sans-serif;
     background: var(--clr-gray100);
-      justify-content:center;
+      justify-content:cente;
   }
 
     
@@ -39,18 +39,16 @@ root {
     padding: 1rem 0;
     border-radius: var(--radius);
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin: 0;
     font-weight: bold; 
     justify-content: top;
-	  color:#550872;
   }
   
   .nav-item {
     list-style: none;
     margin-right: 2rem;
-	  color:#550872;
   }
   
   .nav-item a {
@@ -68,8 +66,6 @@ root {
     margin-right: auto;
     margin-left: 2rem;
   }
-.nav-item a[href="mailto: itsdhanushhere@gmail.com"] {
-    color: #550872;
   
   .btn-primary {
   
