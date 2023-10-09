@@ -28,8 +28,13 @@
     margin: 0 auto; 
     display: flex;
     justify-content: center;
+     
 }
-  
+  .nav-space {
+    width: 20px; /* Adjust the width as needed for the desired space */
+    height: 1px; /* Set the height to create a horizontal space */
+     /* Set background color to match the background */
+}
 .nav-list {
     font-size: 30px;
     padding: 1rem 0;
