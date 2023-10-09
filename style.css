@@ -40,7 +40,8 @@
     padding: 1rem 0;
     border-radius: var(--radius);
     display: flex;
-    justify-content: space-between; /* Use space-between to equally space the items */
+    justify-content: space-between;
+     gap: 10px;/* Use space-between to equally space the items */
     align-items: center;
     margin: 0;
     font-weight: bold; 
