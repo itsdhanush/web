@@ -30,6 +30,10 @@
     justify-content: center;
      
 }
+@media (min-width: 450px) and (max-width: 1119px)
+.page-topper__sub {
+  font-size: calc(18px + (28 - 18) * (100vw - 450px)/(1120 - 450));
+}
   .nav-space {
     width: 2px; /* Adjust the width as needed for the desired space */
     height: 1px; /* Set the height to create a horizontal space */
