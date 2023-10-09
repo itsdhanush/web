@@ -41,7 +41,7 @@
     border-radius: var(--radius);
     display: flex;
     justify-content: space-between;
-     gap: 10px;/* Use space-between to equally space the items */
+     gap: 6px;/* Use space-between to equally space the items */
     align-items: center;
     margin: 0;
     font-weight: bold; 
