@@ -31,7 +31,7 @@
      
 }
   .nav-space {
-    width: 20px; /* Adjust the width as needed for the desired space */
+    width: 10px; /* Adjust the width as needed for the desired space */
     height: 1px; /* Set the height to create a horizontal space */
      /* Set background color to match the background */
 }
@@ -57,6 +57,10 @@
     transition: all 200ms ease-in;
     font-size: larger;
 }
+
+  .nav-item a:hover {
+    color: var(--clr-primary-dark);
+  }
 
   
   .btn-primary {
