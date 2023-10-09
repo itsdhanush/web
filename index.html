@@ -13,6 +13,27 @@
 </head>
 
 <body>
+	 <script>
+        function adjustStyles() {
+            var screenWidth = window.innerWidth;
+
+            // Example: adjust font size based on screen width
+            var fontSize = screenWidth / 20; // Adjust the divisor for desired scaling
+            document.body.style.fontSize = fontSize + "px";
+
+            // You can add more adjustments based on screen width as needed
+        }
+
+        // Call adjustStyles on page load and resize
+        window.onload = adjustStyles;
+        window.onresize = adjustStyles;
+    </script>
+</head>
+
+<body>
+    <!-- Your existing HTML content remains unchanged -->
+    <!-- ... -->
+</body>
 
     <nav>
         <ul class="nav-list">
