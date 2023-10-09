@@ -21,40 +21,38 @@
     font-family: Montserrat, sans-serif;
     background: var(--clr-gray100);
   }
-  nav{ 
+  nav { 
     position: relative; 
     display: block; 
     max-width: 575px; 
     margin: 0 auto; 
     display: flex;
     justify-content: center;
-    } 
+}
   
-  .nav-list {
-
+.nav-list {
     font-size: 30px;
     padding: 1rem 0;
     border-radius: var(--radius);
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between; /* Use space-between to equally space the items */
     align-items: center;
     margin: 0;
     font-weight: bold; 
-    justify-content: top;
-  }
+}
   
-  .nav-item {
+.nav-item {
     list-style: none;
-    margin-right: 2rem;
-  }
+    /* Remove the margin-right property */
+}
   
-  .nav-item a {
+.nav-item a {
     text-decoration: none;
-    color:#550871
+    color: #550871;
     transition: all 200ms ease-in;
-    font-size:larger;
-  }
-  
+    font-size: larger;
+}
+
   .nav-item a:hover {
     color: var(--clr-primary-dark);
   }
