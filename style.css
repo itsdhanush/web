@@ -21,7 +21,7 @@
     font-family: Montserrat, sans-serif;
     background: var(--clr-gray100);
   }
-  nav { 
+ nav { 
     position: relative; 
     display: block; 
     max-width: 575px; 
@@ -39,11 +39,11 @@
     align-items: center;
     margin: 0;
     font-weight: bold; 
+    width: 100%; /* Add this line to ensure the items fill the available space */
 }
   
 .nav-item {
     list-style: none;
-    /* Remove the margin-right property */
 }
   
 .nav-item a {
@@ -53,18 +53,6 @@
     font-size: larger;
 }
 
-  .nav-item a:hover {
-    color: var(--clr-primary-dark);
-  }
-  .nav-item a[href="mailto: itsdhanushhere@gmail.com"] {
-    color: green;
-    /* Add any other styles you want for the Contact link */
-}
-
-  .nav-item:first-child {
-    margin-right: auto;
-    margin-left: 2rem;
-  }
   
   .btn-primary {
   
